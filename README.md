@@ -1,15 +1,19 @@
 # Movies-ETL
 ## Project Overview
- save them into a SQL database so that the hackathon participants have a nice, clean dataset to use. To do this, she will follow the ETL process: extract the Wikipedia and Kaggle data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.
 
+### Background:  
+Write code to gather data from both Wikipedia and Kaggle, combine the data, and save the data into a SQL database so hackathon participants have a nice, clean dataset to use.  
 
+### Process:
+1. Extract the Wikipedia and Kaggle data from their respective files
+1. Transform the datasets by cleaning them up and joining them together
+1. Load the cleaned dataset into a SQL database
+
+### Project Task:  
 Create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. 
 
- 
 ___
 ## Resources
-_Resources:
-
-_Script_: Python 3.7.6
+_Scripts_: Python 3.7.6 and PostgreSQL
 
 _Analyst_: S. Lewer
